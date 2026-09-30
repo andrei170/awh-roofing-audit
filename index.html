@@ -1,0 +1,328 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<title>Digital Presence Audit &middot; AWH Roofing Ltd &middot; AG1 Consulting</title><style>
+:root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--mut:#9aa7b4;--line:#2a3340;--accent:#2f81f7;
+  --good:#3fb950;--bad:#f85149;--gradF:#f85149;--gradD:#e8702a;--gradC:#d29922;--gradB:#3fb950;--gradA:#2ea043;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:12px;color:var(--mut);font-weight:600}
+header{padding:46px 0 28px;border-bottom:1px solid var(--line);background:radial-gradient(1200px 400px at 70% -10%,rgba(47,129,247,.18),transparent)}
+h1{font-size:30px;font-weight:800;margin:10px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--mut);font-size:15px}
+.hero{display:grid;grid-template-columns:300px 1fr;gap:26px;align-items:center;margin:34px 0 8px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.gradecard{border:1px solid var(--line);border-radius:18px;padding:26px;text-align:center;position:relative;overflow:hidden}
+.gc-F{background:linear-gradient(160deg,#2a1410,#1c2330)}.gc-D{background:linear-gradient(160deg,#2a1c10,#1c2330)}
+.gc-C{background:linear-gradient(160deg,#2a2410,#1c2330)}.gc-B{background:linear-gradient(160deg,#102a1a,#1c2330)}
+.bigletter{font-size:96px;font-weight:900;line-height:1;position:relative}
+.bl-F{color:var(--gradF);text-shadow:0 0 40px rgba(248,81,73,.45)}
+.bl-D{color:var(--gradD);text-shadow:0 0 40px rgba(232,112,42,.45)}
+.bl-C{color:var(--gradC);text-shadow:0 0 40px rgba(210,153,34,.45)}
+.score100{font-size:18px;color:var(--mut);margin-top:6px;position:relative}
+.heroread h2{font-size:21px;font-weight:800;margin-bottom:10px}
+.heroread p{color:var(--mut);font-size:15.5px}
+.heroread .tag{display:inline-block;margin-top:14px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--ink);background:var(--panel)}
+section{padding:34px 0;border-bottom:1px solid var(--line)}
+.h{font-size:13px;color:var(--mut);text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+.row{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}
+.rname{font-weight:600;font-size:15px}
+.bar{height:7px;background:#0b0f15;border-radius:99px;margin-top:9px;overflow:hidden}
+.fill{height:100%;border-radius:99px}
+.badge{font-weight:800;font-size:15px;min-width:46px;height:46px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#0d1117}
+.gF{background:var(--gradF)}.gD{background:var(--gradD)}.gC{background:var(--gradC)}.gB{background:var(--gradB);color:#06210f}.gA{background:var(--gradA);color:#06210f}
+.sc{font-size:12px;color:var(--mut);margin-top:3px}
+.flag{background:linear-gradient(160deg,#2a1410,#161b22);border:1px solid #6f2a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.flag .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--bad);font-weight:700;margin-bottom:8px}
+.win{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.win .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--good);font-weight:700;margin-bottom:8px}
+.warn{background:linear-gradient(160deg,#2a2410,#161b22);border:1px solid #6f5a1f;border-radius:14px;padding:20px 22px;margin-bottom:14px}
+.warn .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--gradC);font-weight:700;margin-bottom:8px}
+.flag p,.win p,.warn p{color:var(--mut);font-size:14.5px;margin-bottom:9px}
+.flag p:last-child,.win p:last-child,.warn p:last-child{margin-bottom:0}
+.flag b,.win b,.warn b{color:var(--ink)}
+.flag ul,.win ul,.warn ul{margin:0 0 9px 20px;color:var(--mut);font-size:14.5px}
+.flag li,.win li,.warn li{margin-bottom:6px}
+.code{background:#0b0f15;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:12px 0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:12.5px;line-height:1.85;color:var(--mut);overflow-x:auto}
+.code .ph{color:#ff9d94;font-weight:700}.code .ok{color:#84e0a8;font-weight:700}.code .c{color:#5b6672}
+.cmp{width:100%;border-collapse:collapse;font-size:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.cmp th{text-align:left;padding:11px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);border-bottom:1px solid var(--line);font-weight:700}
+.cmp td{padding:11px 14px;border-bottom:1px solid var(--line);color:var(--mut);vertical-align:top}
+.cmp tr:last-child td{border-bottom:none}.cmp td b{color:var(--ink)}.cmp tr.you td{background:#241a12}
+.cmp .yes{color:var(--good);font-weight:700}.cmp .no{color:var(--bad);font-weight:700}
+.opp{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:760px){.opp{grid-template-columns:1fr}}
+.ocard{background:linear-gradient(160deg,#0f2417,#161b22);border:1px solid #1f6f3a;border-radius:14px;padding:20px;text-align:center}
+.ocard .lab{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut)}
+.ocard .big{font-size:30px;font-weight:900;color:var(--good);margin:8px 0 2px}
+.ocard .small{font-size:13px;color:var(--mut)}
+.oppnote{color:var(--mut);font-size:14px;margin-top:14px}.oppnote b{color:var(--ink)}
+.arrow{display:flex;align-items:center;justify-content:center;gap:18px;margin:6px 0 2px;flex-wrap:wrap}
+.pill{font-size:60px;font-weight:900;line-height:1}
+.pill.from-F{color:var(--gradF)}.pill.from-D{color:var(--gradD)}.pill.from-C{color:var(--gradC)}
+.pill.to{color:var(--gradA)}
+.pilllab{font-size:12px;color:var(--mut);text-align:center;text-transform:uppercase;letter-spacing:.1em}
+.ar{font-size:34px;color:var(--mut)}
+ul.road{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:760px){ul.road{grid-template-columns:1fr}}
+ul.road li{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:11px 14px;font-size:14.5px}
+.road2 li{border-left-color:var(--good)}
+.cta{text-align:center;padding:40px 0 56px}
+.cta h2{font-size:22px;font-weight:800;margin-bottom:8px}
+.cta p{color:var(--mut);font-size:15px}
+footer{color:var(--mut);font-size:12.5px;text-align:center;padding:22px 0 40px;line-height:1.7}
+.gscale{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 26px 20px;margin-top:16px}
+.gscale .gtitle{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--mut);font-weight:700;margin-bottom:26px;text-align:center}
+.gtrack{position:relative;height:14px;border-radius:8px;background:linear-gradient(90deg,#f85149 0%,#f85149 18%,#e3833c 34%,#d4a72c 52%,#7ec46a 74%,#3fb950 100%);margin:0 4px}
+.gmark{position:absolute;top:-46px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.gmark .gm-lab{font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);font-weight:700}
+.gmark .gm-val{font-size:19px;font-weight:900;line-height:1.15}
+.gmark:after{content:"";position:absolute;left:50%;top:100%;width:2px;height:22px;transform:translateX(-50%);background:currentColor;opacity:.75}
+.gmark.now{color:var(--bad)}.gmark.now .gm-val{color:var(--bad)}
+.gmark.proj{color:var(--good)}.gmark.proj .gm-val{color:var(--good)}
+.gmark.proj{top:auto;bottom:-52px}
+.gmark.proj:after{top:auto;bottom:100%}
+.gdot{position:absolute;top:50%;width:16px;height:16px;border-radius:50%;transform:translate(-50%,-50%);border:3px solid #0d1117}
+.gdot.now{background:var(--bad)}.gdot.proj{background:var(--good)}
+.gticks{display:flex;justify-content:space-between;margin:66px 4px 0;font-size:11px;letter-spacing:.08em;color:var(--mut);font-weight:700}
+@media(max-width:620px){.gmark .gm-lab{font-size:9px}.gmark .gm-val{font-size:16px}}
+
+/* ---------- injected asset nav ---------- */
+/* display/padding/margin are declared explicitly so a page carrying its own bare
+   nav{} element rule (concept mockups do) cannot restyle the AG1 bar. */
+.agnav{display:block;padding:0;margin:0;position:sticky;top:0;z-index:80;background:rgba(13,17,23,.92);backdrop-filter:saturate(1.5) blur(10px);border-bottom:1px solid var(--line)}
+.agnav .inner{max-width:1080px;margin:0 auto;padding:0 22px;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.agnav a{display:inline-block;padding:12px 14px;font-size:14px;font-weight:600;color:var(--mut);text-decoration:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.agnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.on{color:var(--ink);border-bottom-color:var(--accent)}
+.agnav a.ext{color:var(--accent)}
+.agnav a.ext:hover{color:#fff}
+@media(max-width:560px){.agnav .inner{padding:0 14px}.agnav a{padding:10px 9px;font-size:13px}}
+</style></head><body>
+<nav class="agnav"><div class="inner"><a href="assets.html">All Assets</a><a href="./" class="on">Audit</a><a href="https://andrei170.github.io/awh-roofing-demo/">Concept Page</a></div></nav>
+
+<header>
+  <div class="wrap">
+    <div class="eyebrow">Digital Presence Audit &middot; AWH Roofing Ltd &middot; Prepared 30 September 2026</div>
+    <h1>You Told Elijah The Problem Has Never Been Quantity. So This Document Is Not About Getting You More Enquiries.</h1>
+    <div class="sub">Prepared for Alex Hickin &middot; AG1 Consulting</div>
+
+    <div class="hero">
+      <div class="heroread">
+        <h2>Most people we audit want more work. You said you cannot staff the work you already have.</h2>
+        <p><b>That changes what is worth buying, so we have written this the other way round</b> &mdash; what the
+        site does to the people you want to hire, and to the buyers of a &pound;20,000 to &pound;100,000 job who are
+        checking you out before they ring.</p>
+        <p><b>There is one thing we would fix regardless</b>, and it is not a marketing item. It is the reason your
+        firm is hard to find at all.</p>
+        <div class="tag">Measured from awhroofing.co.uk on 30 September 2026 &bull; Referral-led &bull; No online marketing</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="h">The Scorecard</div>
+    <div class="rows">
+      <div class="row"><div><div class="rname">Measurement of any kind</div><div class="sc">No analytics, no tag manager, no pixel, no conversion tracking. Nothing at all.</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Business location in structured data</div><div class="sc">No address, town, postcode or LocalBusiness markup anywhere</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Recruitment</div><div class="sc">No careers page, no vacancies, nothing addressed to a roofer</div></div><div class="badge gF">F</div></div>
+      <div class="row"><div><div class="rname">Homepage structure</div><div class="sc">692 words under a single H2. Almost no headings to navigate by.</div></div><div class="badge gD">D</div></div>
+      <div class="row"><div><div class="rname">Contact page depth</div><div class="sc">154 words</div></div><div class="badge gD">D&minus;</div></div>
+      <div class="row"><div><div class="rname">Contact route</div><div class="sc">One mobile number. No landline published anywhere.</div></div><div class="badge gC">C&minus;</div></div>
+      <div class="row"><div><div class="rname">Enquiry forms</div><div class="sc">Forms present on the homepage and the contact page</div></div><div class="badge gB">B</div></div>
+      <div class="row"><div><div class="rname">Named project work</div><div class="sc">Bray, Hale End Road, Maldon Lane and Middleway all published by name</div></div><div class="badge gA">A&minus;</div></div>
+      <div class="row"><div><div class="rname">Manufacturer systems shown</div><div class="sc">Protan, Res-Tec and RubberBond named with their own pages</div></div><div class="badge gA">A</div></div>
+      <div class="row"><div><div class="rname">Meta description &amp; canonical</div><div class="sc">Both present and correct</div></div><div class="badge gA">A</div></div>
+    </div>
+    <div class="win">
+      <div class="lab">The good half is genuinely good, and it is the half most roofers do not have</div>
+      <p><b>Named projects and named manufacturer systems.</b> Protan, Res-Tec and RubberBond are specified
+      commercial systems, and publishing them tells a specifier you work at that level.</p>
+      <p><b>That is the raw material for both problems below</b> &mdash; it is what convinces a good roofer you are
+      worth working for, and what convinces a &pound;100,000 client you are worth ringing.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Finding 1 &mdash; There Is No Measurement On This Website At All</div>
+    <div class="code">
+  EVERY TAG WE LOOKED FOR, ON THE HOMEPAGE
+
+  Google Analytics 4        <span class="ph">not found</span>
+  Google Tag Manager        <span class="ph">not found</span>
+  Google Ads conversion     <span class="ph">not found</span>
+  Universal Analytics       <span class="ph">not found</span>
+  gtag()                    <span class="ph">not found</span>
+  Meta pixel                <span class="ph">not found</span>
+  Hotjar / Clarity          <span class="ph">not found</span>
+
+  <span class="ph">Nothing. Not one tag of any kind.</span>
+    </div>
+    <div class="flag">
+      <div class="lab">This is consistent with what you told Elijah, and it is not a criticism</div>
+      <p><b>You said you run no online marketing and work on referrals.</b> So there has been nothing to measure and
+      nobody has needed to. That is a reasonable position for a business that is full.</p>
+      <p><b>We are flagging it because it means nobody can answer a simple question:</b> how many people look you up
+      after a referral, and what do they do next? On &pound;20,000 to &pound;100,000 jobs, a handful of people
+      quietly deciding against you after checking the website is a lot of money.</p>
+      <p><b>It is a one-off install and it costs nothing monthly.</b> We would put it in whatever else you decide,
+      because every other question depends on it.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Finding 2 &mdash; Your Website Does Not Say Where You Are</div>
+    <div class="code">
+  STRUCTURED DATA SERVED ON awhroofing.co.uk
+
+  Types found:    WebPage, WebSite, BreadcrumbList, SearchAction
+
+  <span class="ph">LocalBusiness / RoofingContractor    NOT PRESENT</span>
+  <span class="ph">streetAddress                        NOT PRESENT</span>
+  <span class="ph">addressLocality (town)               NOT PRESENT</span>
+  <span class="ph">postalCode                           NOT PRESENT</span>
+  <span class="ph">areaServed                           NOT PRESENT</span>
+
+  Published contact route:   <span class="ph">one mobile number, 07889 140051</span>
+    </div>
+    <div class="warn">
+      <div class="lab">Two separate problems come out of this</div>
+      <p><b>The first is that local search has very little to work with.</b> Search engines place a trade business
+      using exactly the markup that is missing here. A roofer with no published town is hard to return for
+      &ldquo;flat roofing near me&rdquo; anywhere in particular.</p>
+      <p><b>The second is trust, and it matters more at your job sizes.</b> Somebody about to spend eighty thousand
+      pounds looks for an address and a landline. What they find is a mobile number and no location.</p>
+      <p><b>We are not saying a mobile is wrong</b> &mdash; plenty of good firms run on one. We are saying that on a
+      site with no address either, the two absences add up to something you would not want them to add up to.</p>
+    </div>
+    <div class="win">
+      <div class="lab">This is the cheapest fix in the document</div>
+      <p><b>Adding the business address, trading area and correct markup is an afternoon</b>, and it is the single
+      item most likely to change whether you appear at all for somebody searching without a referral.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Finding 3 &mdash; Nothing On This Site Is Written For The People You Actually Need</div>
+    <div class="code">
+  WHAT YOU TOLD ELIJAH
+
+  "doesn't have enough staffing to be able to handle the current
+   jobs he has or even potentially get more"
+
+  <span class="ok">"Due to the lack of quality the problem has never been the quantity"</span>
+
+  WHAT THE WEBSITE OFFERS A ROOFER LOOKING FOR WORK
+
+  Careers or vacancies page        <span class="ph">none</span>
+  Anything about the team          <span class="ph">none found</span>
+  Pay, tickets or progression      <span class="ph">none</span>
+  How to apply                     <span class="ph">nothing</span>
+    </div>
+    <div class="warn">
+      <div class="lab">If the constraint is people, the website is aimed at the wrong audience entirely</div>
+      <p><b>Every word on it is addressed to a customer, and you have told us customers are not the shortage.</b>
+      A skilled roofer deciding where to work looks the firm up in exactly the same way a client does, and finds
+      nothing addressed to them.</p>
+      <p><b>You already have the strongest recruitment material a roofing firm can have and it is sitting on the
+      wrong pages.</b> Named refurbishment projects and specified systems tell a good roofer this is proper work,
+      not chasing domestic repairs.</p>
+    </div>
+    <div class="win">
+      <div class="lab">What we would build instead of a lead campaign</div>
+      <ul class="road">
+        <li><b>A page written for roofers, not customers.</b> The kind of work, the systems you install, what you
+        pay, what tickets you want, and who to ring. Most roofing firms have nothing like it.</li>
+        <li><b>The project work reframed as evidence of the job quality</b> &mdash; the same four projects serve both
+        audiences without writing them twice.</li>
+        <li><b>Measurement, so you can see whether anybody reads it.</b> A recruitment page nobody visits is worth
+        knowing about quickly.</li>
+      </ul>
+      <p><b>None of this brings you work you cannot staff</b>, which is the point.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">Finding 4 &mdash; 692 Words Under One Heading</div>
+    <div class="code">
+  HOMEPAGE STRUCTURE
+
+  Words       692
+  H1          1    "AWH Roofing Ltd"
+  H2          <span class="ph">1    "Trusted Roofing Systems From Leading UK Manufacturers"</span>
+
+  /contact    154 words
+    </div>
+    <div class="flag">
+      <div class="lab">The content is reasonable. It just has no shape.</div>
+      <p><b>Seven hundred words under a single subheading is a wall.</b> Nobody scanning it finds the leadwork, the
+      flat roofing systems or the project list, because there is nothing to scan by.</p>
+      <p><b>Your H1 is your company name</b>, which spends the most valuable line on the page telling people
+      something they already knew from the logo. What you do and where you do it would work harder there.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="h">What We Would Do, In Order</div>
+    <ul class="road">
+      <li><b>Publish your address and add proper business markup.</b> Cheapest item here and the one that decides
+      whether you turn up for anybody who has not been referred.</li>
+      <li><b>Install measurement.</b> One-off, no monthly, and nothing after this can be judged without it.</li>
+      <li><b>Build the recruitment page.</b> If people are the constraint, this is the only item on the list
+      pointed at the actual problem.</li>
+      <li><b>Give the homepage headings and a better H1.</b> An afternoon's work on content you already have.</li>
+      <li><b>Do not buy lead generation yet.</b> You told us quantity has never been the problem. We are not going
+      to sell you the opposite of what you said.</li>
+    </ul>
+    <div class="flag">
+      <div class="lab">The honest question for Saturday</div>
+      <p><b>If you could hire three good roofers tomorrow, would the work be there to give them?</b> If yes, the
+      recruitment page is the whole job. If no, then the order changes and we should talk about both.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="wrap">
+    <h2>Named commercial projects, specified systems, and a website that does not say what town you are in.</h2>
+    <p>Fix the second one and the first starts working for you.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    Prepared by Andrei Givero &middot; AG1 Consulting &middot; 30 September 2026, for Alex Hickin at AWH Roofing Ltd.
+    <b>Every statement about awhroofing.co.uk was read directly from that site's own served pages and published
+    sitemap on 30 September 2026 and is reproducible. Word counts exclude scripts and markup. Items recorded as
+    &ldquo;not found&rdquo; or &ldquo;not present&rdquo; describe what a static read of the served HTML returned and
+    are NOT proof of absence &mdash; a tag or a page loaded by script after page load, or a page not listed in the
+    sitemap, would not appear in that read.</b>
+    <b>&#9888; Business details &mdash; referral-led working, no online marketing, insufficient staffing to handle
+    current or additional work, and an average job value of &pound;20,000 to &pound;100,000 &mdash; are as reported
+    to Elijah on 29 September 2026 and have NOT been independently verified by AG1.</b>
+    <b>&#9888; Observations about the mobile number and the absence of a published address describe what the website
+    serves. They are NOT statements about the standing, size, legitimacy or financial position of AWH Roofing Ltd,
+    about which AG1 asserts nothing.</b>
+    <b>&#9888; Project names and manufacturer system names are reproduced as published on the company's own website
+    and have not been independently verified.</b>
+    <b>&#9888; No ranking, enquiry, recruitment, hiring, staffing or revenue outcome is promised, forecast or
+    guaranteed anywhere in this document, and no pricing is proposed in it.</b>
+    Product and company names are used for identification only and belong to their respective owners.
+  </div>
+</footer>
+</body></html>
